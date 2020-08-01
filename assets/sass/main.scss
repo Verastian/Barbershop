@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+// 1. ABSTRACTS
+
+@import "abstracts/mixins","abstracts/variables";
+
+// 2.VENDORS
+@import "vendors/scss_bootstrap/bootstrap";
+
+
+// 3. BASE STUFF
+@import "base/base", "base/normalize","base/typography";
+
+
+// 4. LAYOUT
+@import "layout/footer","layout/header","layout/main-principal","layout/pagination","layout/grid";
+
+// 5.COMPONENTS
+@import "components/btn-pag","components/buttons";
+
+
+// 6. PAGES
+
+
+
+// 7. THEMES
+
+
