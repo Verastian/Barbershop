@@ -1,0 +1,16 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+} 
+  
+@mixin italy{
+    font-style: italic;
+}
+
+@mixin txt__white{
+    color: $white;
+}
+@mixin txt__center {
+    text-align: center;
+}
+  

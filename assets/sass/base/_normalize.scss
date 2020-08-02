@@ -1,6 +1,31 @@
+
 body{
+    font-family: $roboto;
+    font-weight: $light_fnt;
+    font-size: $medium;
+    line-height: 1.8;
     margin: 0 auto;
 }
+p{
+    font-size: $medium;
+}
+
 img{
     max-width: 100%;
+    border-style: none;
+}
+html{
+    font-size: 62.5%; /* Reset para REMS - 62.5% = 10px de 16px */
+}
+
+//Cambiar los estilos de fuente en todos los navegadores.
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; 
+  font-size: 100%; 
+  line-height: 1.15; 
+  margin: 0; 
 }

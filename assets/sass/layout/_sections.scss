@@ -1,0 +1,23 @@
+.sec__site {
+    background-color: $white;
+} 
+@media (max-width: 576px) {
+    .sec__hidden {
+        display: none;
+    }
+    .sec__img {
+        max-width: 30vw;
+        padding-bottom: 10px;
+    }
+}
+
+.sec__border-top {
+    border-top: 2px solid $platinum;
+}
+
+.sec__img-border {
+    border-radius: 50%;
+}
+.sec__txt{
+    text-align: start;
+}
